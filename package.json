@@ -41,7 +41,10 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/joshien1997/testpackage.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshien1997/testpackage.git"
+  },
   "author": "hien1312 <104878788+hienbv1312@users.noreply.github.com> (https://github.com/joshien1997/testpackage.git)",
   "license": "MIT",
   "bugs": {
@@ -156,5 +159,8 @@
         }
       ]
     ]
+  },
+  "directories": {
+    "example": "example"
   }
 }
